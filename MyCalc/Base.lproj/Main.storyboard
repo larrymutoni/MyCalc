@@ -40,26 +40,26 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sfS-Er-rwi">
                                         <rect key="frame" x="0.0" y="138" width="393" height="91"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvK-j5-W4x">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tvK-j5-W4x">
                                                 <rect key="frame" x="0.0" y="0.0" width="90.666666666666671" height="91"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="tvK-j5-W4x" secondAttribute="height" multiplier="1:1" id="9cJ-MH-Po7"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="AC"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="AC"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQp-LX-oZ1">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQp-LX-oZ1">
                                                 <rect key="frame" x="100.66666666666669" y="0.0" width="91" height="91"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="XQp-LX-oZ1" secondAttribute="height" multiplier="1:1" id="CWz-vF-l8u"/>
                                                     <constraint firstAttribute="width" secondItem="XQp-LX-oZ1" secondAttribute="height" multiplier="1:1" id="o0x-3D-e4L"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="+/-"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="+/-"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMA-iS-1pg">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMA-iS-1pg">
                                                 <rect key="frame" x="201.66666666666666" y="0.0" width="90.666666666666657" height="91"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -67,10 +67,10 @@
                                                     <constraint firstAttribute="width" secondItem="XMA-iS-1pg" secondAttribute="height" multiplier="1:1" id="oxD-Tp-Av6"/>
                                                     <constraint firstAttribute="width" secondItem="XMA-iS-1pg" secondAttribute="height" multiplier="1:1" id="tbZ-lJ-qhA"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="%"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="%"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IV-gQ-Vl0">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IV-gQ-Vl0">
                                                 <rect key="frame" x="302.33333333333331" y="0.0" width="90.666666666666686" height="91"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -79,34 +79,34 @@
                                                     <constraint firstAttribute="width" secondItem="6IV-gQ-Vl0" secondAttribute="height" multiplier="1:1" id="dJS-yx-FWu"/>
                                                     <constraint firstAttribute="width" secondItem="6IV-gQ-Vl0" secondAttribute="height" multiplier="1:1" id="ekb-PA-cPZ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="/"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="/"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BzN-6a-KEv">
                                         <rect key="frame" x="0.0" y="238.99999999999997" width="393" height="90.666666666666657"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuK-iU-fOZ">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AuK-iU-fOZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="90.666666666666671" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="AuK-iU-fOZ" secondAttribute="height" multiplier="1:1" id="UhL-G8-quD"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="7"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="7"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLg-qV-de7">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLg-qV-de7">
                                                 <rect key="frame" x="100.66666666666669" y="0.0" width="91" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="RLg-qV-de7" secondAttribute="height" multiplier="1:1" id="MbR-lb-rXH"/>
                                                     <constraint firstAttribute="width" secondItem="RLg-qV-de7" secondAttribute="height" multiplier="1:1" id="l7i-ae-bUa"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="8"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="8"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cje-oe-d6c">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cje-oe-d6c">
                                                 <rect key="frame" x="201.66666666666666" y="0.0" width="90.666666666666657" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -114,10 +114,10 @@
                                                     <constraint firstAttribute="width" secondItem="Cje-oe-d6c" secondAttribute="height" multiplier="1:1" id="Qju-Vs-dLF"/>
                                                     <constraint firstAttribute="width" secondItem="Cje-oe-d6c" secondAttribute="height" multiplier="1:1" id="fBM-Uu-B4i"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="9"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="9"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zJ-Tc-HBz">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zJ-Tc-HBz">
                                                 <rect key="frame" x="302.33333333333331" y="0.0" width="90.666666666666686" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -126,34 +126,34 @@
                                                     <constraint firstAttribute="width" secondItem="4zJ-Tc-HBz" secondAttribute="height" multiplier="1:1" id="jMP-yE-RZl"/>
                                                     <constraint firstAttribute="width" secondItem="4zJ-Tc-HBz" secondAttribute="height" multiplier="1:1" id="zGs-xy-IDt"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="X"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="X"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uNe-TA-VFu">
                                         <rect key="frame" x="0.0" y="339.66666666666663" width="393" height="90.666666666666686"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77d-RB-5CW">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="77d-RB-5CW">
                                                 <rect key="frame" x="0.0" y="0.0" width="90.666666666666671" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="77d-RB-5CW" secondAttribute="height" multiplier="1:1" id="n2e-RD-K0x"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="4"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="4"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDm-2y-2en">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eDm-2y-2en">
                                                 <rect key="frame" x="100.66666666666669" y="0.0" width="91" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="eDm-2y-2en" secondAttribute="height" multiplier="1:1" id="MlS-oy-Aug"/>
                                                     <constraint firstAttribute="width" secondItem="eDm-2y-2en" secondAttribute="height" multiplier="1:1" id="yo1-sq-Kzs"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="5"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="5"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g98-0B-4Uj">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g98-0B-4Uj">
                                                 <rect key="frame" x="201.66666666666666" y="0.0" width="90.666666666666657" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -161,10 +161,10 @@
                                                     <constraint firstAttribute="width" secondItem="g98-0B-4Uj" secondAttribute="height" multiplier="1:1" id="N2x-Rc-J5x"/>
                                                     <constraint firstAttribute="width" secondItem="g98-0B-4Uj" secondAttribute="height" multiplier="1:1" id="UOS-w6-7Rk"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="6"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="6"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rl-EA-hap">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Rl-EA-hap">
                                                 <rect key="frame" x="302.33333333333331" y="0.0" width="90.666666666666686" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -173,34 +173,34 @@
                                                     <constraint firstAttribute="width" secondItem="7Rl-EA-hap" secondAttribute="height" multiplier="1:1" id="L6G-UE-6Gp"/>
                                                     <constraint firstAttribute="width" secondItem="7Rl-EA-hap" secondAttribute="height" multiplier="1:1" id="TW7-Qs-bfF"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="-"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="-"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="iaY-IY-tUY">
                                         <rect key="frame" x="0.0" y="440.33333333333337" width="393" height="90.666666666666629"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sf-ZW-cSP">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sf-ZW-cSP">
                                                 <rect key="frame" x="0.0" y="0.0" width="90.666666666666671" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="0sf-ZW-cSP" secondAttribute="height" multiplier="1:1" id="Sfq-7q-906"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="1"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="1"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4m-01-0Ed">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E4m-01-0Ed">
                                                 <rect key="frame" x="100.66666666666669" y="0.0" width="91" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="E4m-01-0Ed" secondAttribute="height" multiplier="1:1" id="ca5-sd-djo"/>
                                                     <constraint firstAttribute="width" secondItem="E4m-01-0Ed" secondAttribute="height" multiplier="1:1" id="uYZ-m7-zGF"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="2"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="2"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfy-TD-kZ5">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nfy-TD-kZ5">
                                                 <rect key="frame" x="201.66666666666666" y="0.0" width="90.666666666666657" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -208,10 +208,10 @@
                                                     <constraint firstAttribute="width" secondItem="Nfy-TD-kZ5" secondAttribute="height" multiplier="1:1" id="c52-Q6-etd"/>
                                                     <constraint firstAttribute="width" secondItem="Nfy-TD-kZ5" secondAttribute="height" multiplier="1:1" id="fM5-cf-ALZ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="3"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="3"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Kz-ul-ys9">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Kz-ul-ys9">
                                                 <rect key="frame" x="302.33333333333331" y="0.0" width="90.666666666666686" height="90.666666666666671"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -220,25 +220,25 @@
                                                     <constraint firstAttribute="width" secondItem="1Kz-ul-ys9" secondAttribute="height" multiplier="1:1" id="acy-vI-GUj"/>
                                                     <constraint firstAttribute="width" secondItem="1Kz-ul-ys9" secondAttribute="height" multiplier="1:1" id="qHz-ZF-jmm"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="+"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="+"/>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="212-74-LfU">
                                         <rect key="frame" x="0.0" y="541" width="393" height="91"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7h-Ih-Psc">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7h-Ih-Psc">
                                                 <rect key="frame" x="0.0" y="0.0" width="191.33333333333334" height="91"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="P7h-Ih-Psc" secondAttribute="height" multiplier="2:0.95" id="SE1-qa-hr1"/>
                                                     <constraint firstAttribute="width" secondItem="P7h-Ih-Psc" secondAttribute="height" multiplier="2:0.95" id="Yud-Qj-uJv"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="0"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="0"/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bry-ns-c05">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bry-ns-c05">
                                                 <rect key="frame" x="201.33333333333334" y="0.0" width="90.666666666666657" height="91"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -246,10 +246,10 @@
                                                     <constraint firstAttribute="width" secondItem="Bry-ns-c05" secondAttribute="height" multiplier="1:1" id="Yux-WW-QU5"/>
                                                     <constraint firstAttribute="width" secondItem="Bry-ns-c05" secondAttribute="height" multiplier="1:1" id="aTJ-6f-bzQ"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="."/>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IJ-cc-X5Z">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IJ-cc-X5Z">
                                                 <rect key="frame" x="302" y="0.0" width="91" height="91"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
@@ -258,8 +258,8 @@
                                                     <constraint firstAttribute="width" secondItem="0IJ-cc-X5Z" secondAttribute="height" multiplier="1:1" id="hLX-23-M8x"/>
                                                     <constraint firstAttribute="width" secondItem="0IJ-cc-X5Z" secondAttribute="height" multiplier="1:1" id="jXm-FE-nbb"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="="/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="="/>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -274,6 +274,27 @@
                             <constraint firstItem="k3E-X5-Ypi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ebt-xb-axl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addButton" destination="1Kz-ul-ys9" id="XOd-vQ-BtC"/>
+                        <outlet property="clear" destination="tvK-j5-W4x" id="3bY-v5-CEr"/>
+                        <outlet property="decimalsButton" destination="Bry-ns-c05" id="f3h-sx-Gfb"/>
+                        <outlet property="divideButton" destination="6IV-gQ-Vl0" id="6rG-ZO-kE6"/>
+                        <outlet property="equalsButton" destination="0IJ-cc-X5Z" id="MvU-Nv-ojV"/>
+                        <outlet property="minusButton" destination="7Rl-EA-hap" id="5y4-4O-dy9"/>
+                        <outlet property="multiplyButton" destination="4zJ-Tc-HBz" id="E7R-5O-SD6"/>
+                        <outlet property="negateButton" destination="XQp-LX-oZ1" id="8lE-TB-xCK"/>
+                        <outlet property="percentageButton" destination="XMA-iS-1pg" id="zJV-gM-8SB"/>
+                        <outlet property="pinpadButton0" destination="P7h-Ih-Psc" id="LlI-zw-Px6"/>
+                        <outlet property="pinpadButton1" destination="0sf-ZW-cSP" id="M5a-vv-yGz"/>
+                        <outlet property="pinpadButton2" destination="E4m-01-0Ed" id="NBw-Lp-uFp"/>
+                        <outlet property="pinpadButton3" destination="Nfy-TD-kZ5" id="Kxb-QI-eOa"/>
+                        <outlet property="pinpadButton4" destination="77d-RB-5CW" id="df4-V5-h8Q"/>
+                        <outlet property="pinpadButton5" destination="eDm-2y-2en" id="cVB-DT-gdU"/>
+                        <outlet property="pinpadButton6" destination="g98-0B-4Uj" id="zl3-hj-kjn"/>
+                        <outlet property="pinpadButton7" destination="AuK-iU-fOZ" id="4zM-5k-4Fv"/>
+                        <outlet property="pinpadButton8" destination="RLg-qV-de7" id="uos-pQ-6cM"/>
+                        <outlet property="pinpadButton9" destination="Cje-oe-d6c" id="Wqq-WD-2bO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
