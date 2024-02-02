@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var lcdDisplay: UIButton!
+    @IBOutlet weak var displayLabel: UIButton!
+    
     @IBOutlet weak var pinpadButton0: UIButton!
     @IBOutlet weak var pinpadButton1: UIButton!
     @IBOutlet weak var pinpadButton2: UIButton!
@@ -40,34 +43,75 @@ class ViewController: UIViewController {
     
     private func decorateView()
     {
-        decorateButton(pinpadButton0)
-        decorateButton(pinpadButton1)
-        decorateButton(pinpadButton2)
-        decorateButton(pinpadButton3)
-        decorateButton(pinpadButton4)
-        decorateButton(pinpadButton5)
-        decorateButton(pinpadButton6)
-        decorateButton(pinpadButton7)
-        decorateButton(pinpadButton8)
-        decorateButton(pinpadButton9)
+        let backgroundColor: UIColor = .black
+        let displayColor: UIColor = .white
         
-        decorateButton(clear)
-        decorateButton(negateButton)
-        decorateButton(percentageButton)
+        view.backgroundColor = backgroundColor
+//        lcdDisplay.backgroundColor = .clear
+//        displayLabel.titleLabel?.textColor = displayColor
         
-        decorateButton(divideButton)
-        decorateButton(addButton)
-        decorateButton(multiplyButton)
-        decorateButton(minusButton)
-        decorateButton(equalsButton)
         
-        decorateButton(decimalsButton)
+        decorateButtons()
+    }
+    
+    private func decorateButtons(){
+        decoratePinPadButton(pinpadButton0)
+        decoratePinPadButton(pinpadButton1)
+        decoratePinPadButton(pinpadButton2)
+        decoratePinPadButton(pinpadButton3)
+        decoratePinPadButton(pinpadButton4)
+        decoratePinPadButton(pinpadButton5)
+        decoratePinPadButton(pinpadButton6)
+        decoratePinPadButton(pinpadButton7)
+        decoratePinPadButton(pinpadButton8)
+        decoratePinPadButton(pinpadButton9)
+        
+        decorateExtraFunctionButton(clear)
+        decorateExtraFunctionButton(negateButton)
+        decorateExtraFunctionButton(percentageButton)
+        
+        decorateOperationButton(divideButton)
+        decorateOperationButton(addButton)
+        decorateOperationButton(multiplyButton)
+        decorateOperationButton(minusButton)
+        decorateOperationButton(equalsButton)
+        
+        decoratePinPadButton(decimalsButton)
     }
     
     private func decorateButton(_ button: UIButton){
         button.setBackgroundImage(UIImage(named: "Circle"), for: .normal)
-        button.tintColor = .orange
         button.backgroundColor = .clear
+    }
+    
+    private func decorateExtraFunctionButton(_ button: UIButton){
+        decorateButton(button)
+        
+        let extraFucntionColor: UIColor = .lightGray
+        let extraFunctionTitleColor: UIColor = .white
+        
+        button.tintColor = extraFucntionColor
+        button.setTitleColor(extraFunctionTitleColor, for: .normal)
+    }
+    
+    private func decorateOperationButton(_ button: UIButton){
+        decorateButton(button)
+        
+        let operationColor: UIColor = .orange
+        let operationColorTitleColor: UIColor = .white
+        
+        button.tintColor = operationColor
+        button.setTitleColor(operationColorTitleColor, for: .normal)
+    }
+    
+    private func decoratePinPadButton(_ button: UIButton){
+        decorateButton(button)
+        
+        let pinpadColor: UIColor = .darkGray
+        let pinpadTitleColor: UIColor = .white
+        
+        button.tintColor = pinpadColor
+        button.setTitleColor(pinpadTitleColor, for: .normal)
     }
 
 }
